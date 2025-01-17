@@ -11,7 +11,11 @@
 h1, h2{
     text-align: center;
     letter-spacing: .2rem;
-    text-transform: capitalize;
+    text-transform: uppercase;
+}
+
+header{
+    margin-bottom: 50px;
 }
 
 h2{
@@ -39,4 +43,14 @@ ol li{
     display: block;
     margin-top: 50px;
     /* margin-bottom: 50px; */
+}
+
+
+.dark{
+    background-color:  #333;
+    color: white;
+}
+
+.dark h2{
+    color: #14a2ff;
 }
