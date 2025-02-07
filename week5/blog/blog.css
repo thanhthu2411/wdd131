@@ -15,21 +15,29 @@ body {
 
 main {
     display: grid;
-    grid-template-columns: auto 300px;
+    grid-template-columns: auto 350px;
 }
 
-.book-infor {
+.book {
     display: grid;
     grid-template-columns: 300px auto;
+    margin-top: 30px;
 }
 
 h1 {
     font-family: Lora, Impact, serif;
     text-align: center;
+    padding: 15px 0;
+    font-size: 2rem;
 }
 
 nav {
-    border: 1px solid #EFC69B;
+    border-bottom: 2px solid #EFC69B;
+    border-top: 2px solid #EFC69B;
+    /* max-width: 100%;
+    margin: 0 auto; */
+    padding-right: 150px;
+    line-height: 2rem;
 }
 
 ul li {
@@ -39,4 +47,45 @@ ul li {
 li a {
     text-decoration: none;
     color: #AF1B3F;
+    font-size: 1.1em;
+}
+
+.book-infor {
+    text-align: right;
+    border-right: 1px solid #EFC69B;
+    padding-right: 10px;
+}
+
+.book-content {
+    padding-left: 15px;
+}
+
+h2 {
+    color: #AF1B3F;
+}
+
+.book-img {
+    margin-left: 50px;
+}
+
+.book-detail {
+    font-size: 1.1em;
+}
+
+
+
+
+
+
+.read-more {
+    text-decoration: none;
+    color: red;
+}
+
+
+
+.filter-container {
+    border: 1px solid #EFC69B;
+    margin-top: 30px;
+    margin-right: 60px;
 }
