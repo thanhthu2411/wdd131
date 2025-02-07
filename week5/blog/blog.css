@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    padding: none;
+    margin: auto;
+}
+
+.main-nav {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    justify-content: end;
+    justify-items: end;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto 300px;
+}
+
+.book-infor {
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+
+h1 {
+    font-family: Lora, Impact, serif;
+    text-align: center;
+}
+
+nav {
+    border: 1px solid #EFC69B;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #AF1B3F;
+}

@@ -57,6 +57,7 @@ body{
 .image {
     grid-row: 2/3;
     max-width:100%;
+    width: 85%;
 }
 
 
@@ -145,6 +146,11 @@ footer p {
     .nav-links {
         display: none;
     }
+
+    .image {
+        width: 85%;
+        object-fit: contain;
+    }
 }
 
 @media (min-width: 1000px) {
@@ -171,18 +177,16 @@ footer p {
 
     .viewer {
         top: 50px;
-        left: 60px;
+        left: 90px;
         bottom: 20px;
         right: 60px;
         overflow: hidden;
-        padding: 20px;
+        padding: 40px;
     }
 
     .image {
-        width: 80%;
+        width: 55%;
         object-fit: contain;
     }
-
-
 
 }
