@@ -79,7 +79,8 @@ h2 {
 
 .read-more {
     text-decoration: none;
-    color: red;
+    color: #8B0000;
+    font-weight: bold;
 }
 
 
