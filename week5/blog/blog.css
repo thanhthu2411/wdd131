@@ -34,8 +34,8 @@ h1 {
 nav {
     border-bottom: 2px solid #EFC69B;
     border-top: 2px solid #EFC69B;
-    /* max-width: 100%;
-    margin: 0 auto; */
+    max-width: 100%;
+    margin: 0 auto;
     padding-right: 150px;
     line-height: 2rem;
 }
@@ -62,10 +62,13 @@ li a {
 
 h2 {
     color: #AF1B3F;
+    padding-top: 5px;
+    margin: 0 auto;
 }
 
 .book-img {
-    margin-left: 50px;
+    margin: 30px 180px;
+    margin-bottom: 10px;
 }
 
 .book-detail {
