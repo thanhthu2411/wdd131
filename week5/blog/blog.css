@@ -2,7 +2,7 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
-    padding: none;
+    padding: 0;
     margin: auto;
 }
 
@@ -56,6 +56,14 @@ li a {
     padding-right: 10px;
 }
 
+.book-infor p {
+    margin: 8px auto;
+}
+
+.date {
+    font-size: 1.1em;
+}
+
 .book-content {
     padding-left: 15px;
 }
@@ -67,12 +75,15 @@ h2 {
 }
 
 .book-img {
-    margin: 30px 180px;
+    text-align: center;
+    margin: 30px auto;
+    display: block;
     margin-bottom: 10px;
 }
 
 .book-detail {
     font-size: 1.1em;
+    padding-right: 10px;
 }
 
 
