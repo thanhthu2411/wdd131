@@ -36,6 +36,10 @@ body{
     margin-bottom: 10px;
 }
 
+.card-image {
+    height: 55px;
+}
+
 label {
     display: block;
     margin-bottom: 2px;
