@@ -37,7 +37,7 @@ const articles = [
 		genre: "Fantasy",
 		stars: "⭐⭐⭐⭐⭐"
 		}
-]
+];
 
 const articleList = document.querySelector(".article-list");
 articles.forEach(article => {
@@ -56,9 +56,28 @@ articles.forEach(article => {
             <img class="book-img" src=${article.imgSrc} alt=${article.imgAlt}/>
             <p class="book-detail">${article.description}<a class="read-more" href="#">Read More...</a>
             </p>
-          </div>`
+          </div>`;
 
 	book.innerHTML = literalString;
 	articleList.appendChild(book);
 });
 
+
+// // solution 2:
+// const articleList2 = document.querySelector(".article-list");
+// function renderArticle(article) {
+// 	return `<div class="book-infor">
+//             <p class="date">${article.date}</p>
+//             <p>${article.ages}</p>
+//             <p>${article.genre}</p>
+//             <p>${article.stars}</p>
+//           </div>
+
+//           <div class="book-content">
+//             <h2>${article.title}</h2>
+//             <img class="book-img" src=${article.imgSrc} alt=${article.imgAlt}/>
+//             <p class="book-detail">${article.description}<a class="read-more" href="#">Read More...</a>
+//             </p>
+//           </div>`
+// }
+// articleList2.innerHTML = // articles.map(renderArticle)
