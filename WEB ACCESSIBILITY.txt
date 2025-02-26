@@ -1,0 +1,24 @@
+WEB ACCESSIBILITY
+
+Perceivable
++ text alternatives: provide text alternatives for non-text content
++ time-based media: provide alternatives for time-based media (captions for videos)
++ adaptable: create content that can be presented in different ways without losing infor or structure
+
+
+Operable
++ Keyboard accessible: make all functionality available from a keyboard
++ Enough time: provide users enough time to read and use content
++ Seizures and Physical reactions: do not design content in a way
+
+Understandable
++ readable
++ predictable
++ input assistance: help users avoid and correct mistakes
+
+Robust
++ compatible: maximize compatibility with current and future user tools
++ assistive technologies: ensure content can be interpreted by a wide variety of user agents
+
+
+WCAG guidelines

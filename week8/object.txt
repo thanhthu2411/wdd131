@@ -1,0 +1,13 @@
+***objects***
+
+
+
+
+*** this ***
+
+inside a method, "this" refers to the object calling the method
+
+in a regular function, it refers to the global ojbect 
+
+in event listeners, it refers to the element triggering the event
+
