@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Practice Challenges</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      /* background-color: black; */
+    }
+    .hidden {
+      display: none;
+    }
+    .dark-theme {
+      background-color: #333;
+      color: white;
+    }
+    img {
+      width: 100px;
+      margin: 10px;
+      cursor: pointer;
+    }
+    .task.done {
+      text-decoration: line-through;
+      color: gray;
+    }
+
+    .viewer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    }
+
+    .viewer-img {
+        width: 100%;
+    }
+  </style>
+  <script src="practice.js" defer></script>
+</head>
+
+<body>
+<h1>JavaScript Practice Challenges</h1>
+
+<!-- Challenge 1: Dark & Light Theme -->
+<button id="theme-btn">Toggle Dark/Light Theme</button>
+
+<!-- Challenge 2: Image Viewer -->
+<h2>Image Viewer</h2>
+<img class="image" src="byui-logo_blue.webp" alt="Thumbnail" />
+<!-- <img src="byui-logo_white.png" alt="Thumbnail" /> -->
+<div id="large-image" class="hidden"></div>
+
+<!-- Challenge 3: Dynamic HTML Markup Generator -->
+<h2>Create a Card</h2>
+<form id="card-form">
+  <input type="text" id="title" placeholder="Title" required />
+  <textarea id="description" placeholder="Description" required></textarea>
+  <button class="card-btn" type="submit">Create Card</button>
+</form>
+<div id="cards"></div>
+
+<!-- Challenge 4: Registration Form with Summary -->
+<h2>Registration Form</h2>
+<form id="registration-form">
+  <input type="text" id="name" placeholder="Name" required />
+  <input type="email" id="email" placeholder="Email" required />
+  <input type="text" id="food" placeholder="Favorite Food" required />
+  <button type="submit">Register</button>
+</form>
+<div id="summary" class="hidden"></div>
+
+<!-- Challenge 5: To-Do List -->
+<h2>To-Do List</h2>
+<input type="text" id="task-input" placeholder="New Task" />
+<button >Add Task</button>
+<ul id="tasks"></ul>
+
+</body>
+</html>
