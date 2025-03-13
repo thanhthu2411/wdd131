@@ -80,10 +80,17 @@ main {
     margin: 0; 
 }
 
-.recipe-container {
+                                /* FIX HERE  */
+
+.recipe-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+article {
     display: flex;
     width: 80%;
-    flex-wrap: wrap;
     justify-content: center;
     border: solid 1px black;
     border-radius: 4px;
@@ -93,7 +100,6 @@ main {
 .content-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 90%;
     /* gap: 15px; */
 }
@@ -107,14 +113,11 @@ main {
 
 .tag-row {
     margin-top: 15px;
-    display: flex;
-    flex-direction: row;
 
 }
 
 .recipe-tag {
-    width: 100px;
-    border: solid 1px black;
+    border: solid 2px black;
     padding: 4px 7px;
     font-size: 1.1rem;
     font-family: Arial, Helvetica, sans-serif;
