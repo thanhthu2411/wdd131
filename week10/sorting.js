@@ -67,12 +67,13 @@ const hikes = [
   ];
    const simpleList = ["oranges", "grapes", "lemons", "apples", "Bananas", "watermelons", "coconuts", "broccoli", "mango"];
   
-  simpleList.sort().reverse();
+//Activity 1
+simpleList.sort().reverse();
 
+console.log("Activity 1");
 console.log(simpleList);
 
-// filtering a list of strings
-
+// Activity 2
 function searchList(list, query) {
   function searchCallback(string) {
     return string.toLowerCase().includes(query.toLowerCase());
@@ -80,13 +81,14 @@ function searchList(list, query) {
   return list.filter(searchCallback);
 }
 
-const filteredList = searchList(simpleList, "b")
+console.log("Activity 2");
+console.log(searchList(simpleList, "b"));
+console.log(searchList(simpleList, "an"));
 
 
-const filList = simpleList.filter(string => string.toLowerCase().includes("b"))
+// const filList = simpleList.filter(string => string.toLowerCase().includes("b"))
 
-
-// sorting and filtering a list of objects
+// Activity 3
 function searchList2(list, query) {
   function searchCallBack2(item) {
     return item.name.toLowerCase().includes(query.toLowerCase()) ||
@@ -96,10 +98,20 @@ function searchList2(list, query) {
   return list.filter(searchCallBack2);
 }
 
-const fList = simpleList.filter(item => item.name.toLowerCase().includes("al") ||
-      item.description.toLowerCase().includes("al") ||
-      item.tags.find((string) => string.toLowerCase().includes("al"))
-    )
+console.log("Activity 3");
+console.log(searchList2(hikes, "yellowstone"));
+console.log(searchList2(hikes, "moderate"));
+console.log(searchList2(hikes, "al"));
+
+
+
+
+
+
+// const fList = simpleList.filter(item => item.name.toLowerCase().includes("al") ||
+//       item.description.toLowerCase().includes("al") ||
+//       item.tags.find((string) => string.toLowerCase().includes("al"))
+//     )
 
 // // filter a list of strings
 // function searchList(list, query) {
