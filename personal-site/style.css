@@ -252,6 +252,11 @@ footer p, footer a {
   margin: 3rem auto;
 }
 
+.celebrations-container h2 {
+  display: block;
+  margin: 0 auto;
+}
+
 .celebration p {
   text-align: center;
 }
